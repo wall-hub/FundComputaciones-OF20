@@ -1,0 +1,13 @@
+Algoritmo ciframiento_caeser
+	//Declaración de Variables
+	Definir C, d, n Como Entero
+	//Inicialización
+	Escribir "Ingrese el numero de digitos: "
+	leer d
+	Escribir "Ingrese el numero de posiciones: "
+	leer n
+	//Proceso
+	C <-(d+n) mod 10
+	//Salida
+	Escribir "El digito Cifraso es: " C
+FinAlgoritmo
